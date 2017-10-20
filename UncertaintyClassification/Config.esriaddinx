@@ -1,0 +1,20 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>UncertaintyClassification</Name>
+  <AddInID>{18b4b44b-5e0b-4a0a-8b22-1741b854d6d0}</AddInID>
+  <Description>Optimal map classification incorporating uncertainty information</Description>
+  <Version>1.0</Version>
+  <Image>Images\UncertaintyClassification_1.png</Image>
+  <Author>Hyeongmo Koo</Author>
+  <Company>University of Texas at Dallas</Company>
+  <Date>3/7/2017</Date>
+  <Targets>
+    <Target name="Desktop" version="10.5" />
+  </Targets>
+  <AddIn language="CLR" library="UncertaintyClassification.dll" namespace="UncertaintyClassification">
+    <ArcMap>
+      <Commands>
+        <Button id="University_of_Texas_UncertaintyClassification_UncertaintyClassification" class="UncertaintyClassification" message="" caption="Classification with uncertainty" tip="Optimal map classification incorporating uncertainty information" category="Add-In Controls" image="Images\UncertaintyClassification.png" />
+      </Commands>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>
